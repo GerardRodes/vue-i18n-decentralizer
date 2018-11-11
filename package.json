@@ -1,6 +1,6 @@
 {
   "name": "vue-i18n-decentralizer",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-alpha.2",
   "description": "Decentralize vue-i18n locales",
   "main": "dist/main.js",
   "bin": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "parcel build src/main.js --target node --bundle-node-modules",
+    "build": "parcel build src/main.js --no-source-maps --target node --bundle-node-modules && ./scripts/prepend_hashbang.sh",
     "dev": "parcel src/main.js --target node",
     "tests": "parcel build tests/index.js --no-minify --target node --out-dir tests/compiled && node tests/compiled"
   },
