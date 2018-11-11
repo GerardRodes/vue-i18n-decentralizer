@@ -1,5 +1,5 @@
 # Vue i18n decentralizer
-### Decentralize vue-i18n locales
+*Decentralize vue-i18n locales*
 
 Is it ready?
 ---
