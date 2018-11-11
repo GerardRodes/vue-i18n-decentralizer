@@ -2,7 +2,7 @@
   <div>
     {{ $t('a.b.c') }}
     {{ $t('a.b2.c2.' + someValue) }}
-    {{ $t('scopped') }}
+    {{ $t($options.name + '.scopped') }}
   </div>
 </template>
 
