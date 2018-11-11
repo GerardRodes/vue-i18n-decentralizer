@@ -13,6 +13,10 @@ Why
 ---
 As a project grew we found that our translations were almost half the size of the bundled app, this is a tool to split the translations around so only the immediatelly needed locales are downloaded
 
+Usage
+---
+node dist/main.js [command] [...arguments]
+
 Commands
 ---
 - help: shows help
