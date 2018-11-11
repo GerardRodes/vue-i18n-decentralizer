@@ -1,0 +1,1 @@
+export const ErrorRequireArgument = name => new Error(`Argument ${name} is required`)

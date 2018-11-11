@@ -1,0 +1,17 @@
+{
+  "a": {
+    "b": {
+      "c": "es-ES a.b.c",
+      "c2": "es-ES a.b.c2"
+    },
+    "b2": {
+      "c": "es-ES a.b2.c",
+      "c2": {
+        "f": "es-ES a.b2.c2.f"
+      }
+    }
+  },
+  "App": {
+    "scoped": "es-ES App.scoped"
+  }
+}

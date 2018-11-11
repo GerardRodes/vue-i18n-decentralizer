@@ -1,0 +1,17 @@
+{
+  "a": {
+    "b": {
+      "c": "en-US a.b.c",
+      "c2": "en-US a.b.c2"
+    },
+    "b2": {
+      "c": "en-US a.b2.c",
+      "c2": {
+        "f": "en-US a.b2.c2.f"
+      }
+    }
+  },
+  "App": {
+    "scoped": "en-US App.scoped"
+  }
+}
