@@ -1,6 +1,6 @@
 {
   "name": "vue-i18n-decentralizer",
-  "version": "0-alpha",
+  "version": "0.0.1-alpha",
   "description": "Decentralize vue-i18n locales",
   "main": "dist/main.js",
   "author": "Gerard Rodes",
