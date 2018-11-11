@@ -13,5 +13,5 @@ switch (options.command) {
     break
   default:
     console.log(usage)
-    return
+    break
 }

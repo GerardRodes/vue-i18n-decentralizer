@@ -1,6 +1,6 @@
 {
   "name": "vue-i18n-decentralizer",
-  "version": "1.0.0",
+  "version": "0-alpha",
   "description": "Decentralize vue-i18n locales",
   "main": "dist/main.js",
   "author": "Gerard Rodes",
@@ -8,7 +8,7 @@
   "private": false,
   "scripts": {
     "build": "parcel build src/main.js --target node --bundle-node-modules",
-    "start": "parcel src/main.js --target node",
+    "dev": "parcel src/main.js --target node",
     "tests": "parcel build tests/index.js --no-minify --target node --out-dir tests/compiled && node tests/compiled"
   },
   "dependencies": {
