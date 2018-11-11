@@ -16,7 +16,9 @@ This is a tool to split the translations around so only the immediately needed o
 
 Usage
 ---
+```bash
 node dist/main.js [command] [...arguments]
+```
 
 Commands
 ---
