@@ -11,7 +11,8 @@ It splits translations registered at centralized json files around all your vue 
 
 Why
 ---
-As a project grew we found that our translations were almost half the size of the bundled app, this is a tool to split the translations around so only the immediatelly needed locales are downloaded
+As a project grew we found that our translations were almost half the size of the bundled app.
+This is a tool to split the translations around so only the immediately needed ones are downloaded
 
 Usage
 ---
