@@ -17,7 +17,8 @@ This is a tool to split the translations around so only the immediately needed o
 Usage
 ---
 ```bash
-node dist/main.js [command] [...arguments]
+yarn global add vue-i18n-decentralizer
+vue-i18n-decentralizer [command] [...arguments]
 ```
 
 Commands
