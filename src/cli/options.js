@@ -35,5 +35,12 @@ export default [
     alias: 'o',
     description: 'Folder where to write the output, if undefined source files will be overwritten',
     typeLabel: '{underline folder}'
+  },
+  {
+    name: 'ignoreKeys',
+    alias: 'i',
+    multiple: true,
+    typeLabel: '{underline string}',
+    description: 'Keys to ignore from json translations files'
   }
 ]

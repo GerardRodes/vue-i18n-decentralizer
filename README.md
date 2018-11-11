@@ -24,13 +24,17 @@ Commands
 ---
 - help: it helps you
 - decentralize: decentralizes translations around source files
-- prune: removes unused translations on source files
+- prune: removes unused translations from locales json files
 
 Arguments
 ---
 - source, s: source files to read (usually the .vue or .js files)
 - localesFolder, l: Folder containing the vue-i18n json files
 - output, o: Folder where to write the output, if undefined source files will be overwritten
+- ignoreKeys, i: Keys to ignore inside the json translations files, it affects each command in the following way:
+  - decentralize: will not place them inside the vue file
+  - prune: will not remove them
+  - help: will give you a genuinely sensation of corresponded love
 
 To Do
 ---
