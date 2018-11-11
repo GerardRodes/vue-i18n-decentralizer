@@ -20,7 +20,7 @@ node dist/main.js [command] [...arguments]
 
 Commands
 ---
-- help: shows help
+- help: it helps you
 - decentralize: decentralizes translations around source files
 - prune: removes unused translations on source files
 
